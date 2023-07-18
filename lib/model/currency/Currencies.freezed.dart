@@ -1,7 +1,7 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'Currencies.dart';
 
@@ -38,7 +38,8 @@ mixin _$Currencies {
 abstract class $CurrenciesCopyWith<$Res> {
   factory $CurrenciesCopyWith(
           Currencies value, $Res Function(Currencies) then) =
-      _$CurrenciesCopyWithImpl<$Res>;
+      _$CurrenciesCopyWithImpl<$Res, Currencies>;
+  @useResult
   $Res call(
       {String id,
       String logo_url,
@@ -50,62 +51,67 @@ abstract class $CurrenciesCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$CurrenciesCopyWithImpl<$Res> implements $CurrenciesCopyWith<$Res> {
+class _$CurrenciesCopyWithImpl<$Res, $Val extends Currencies>
+    implements $CurrenciesCopyWith<$Res> {
   _$CurrenciesCopyWithImpl(this._value, this._then);
 
-  final Currencies _value;
   // ignore: unused_field
-  final $Res Function(Currencies) _then;
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
+  @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? id = freezed,
-    Object? logo_url = freezed,
-    Object? name = freezed,
-    Object? price = freezed,
+    Object? id = null,
+    Object? logo_url = null,
+    Object? name = null,
+    Object? price = null,
     Object? marketCap = freezed,
-    Object? rank = freezed,
+    Object? rank = null,
     Object? rankDelta = freezed,
   }) {
     return _then(_value.copyWith(
-      id: id == freezed
+      id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
-      logo_url: logo_url == freezed
+      logo_url: null == logo_url
           ? _value.logo_url
           : logo_url // ignore: cast_nullable_to_non_nullable
               as String,
-      name: name == freezed
+      name: null == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      price: price == freezed
+      price: null == price
           ? _value.price
           : price // ignore: cast_nullable_to_non_nullable
               as String,
-      marketCap: marketCap == freezed
+      marketCap: freezed == marketCap
           ? _value.marketCap
           : marketCap // ignore: cast_nullable_to_non_nullable
               as double?,
-      rank: rank == freezed
+      rank: null == rank
           ? _value.rank
           : rank // ignore: cast_nullable_to_non_nullable
               as String,
-      rankDelta: rankDelta == freezed
+      rankDelta: freezed == rankDelta
           ? _value.rankDelta
           : rankDelta // ignore: cast_nullable_to_non_nullable
               as String?,
-    ));
+    ) as $Val);
   }
 }
 
 /// @nodoc
-abstract class _$CurrenciesCopyWith<$Res> implements $CurrenciesCopyWith<$Res> {
-  factory _$CurrenciesCopyWith(
-          _Currencies value, $Res Function(_Currencies) then) =
-      __$CurrenciesCopyWithImpl<$Res>;
+abstract class _$$_CurrenciesCopyWith<$Res>
+    implements $CurrenciesCopyWith<$Res> {
+  factory _$$_CurrenciesCopyWith(
+          _$_Currencies value, $Res Function(_$_Currencies) then) =
+      __$$_CurrenciesCopyWithImpl<$Res>;
   @override
+  @useResult
   $Res call(
       {String id,
       String logo_url,
@@ -117,51 +123,50 @@ abstract class _$CurrenciesCopyWith<$Res> implements $CurrenciesCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$CurrenciesCopyWithImpl<$Res> extends _$CurrenciesCopyWithImpl<$Res>
-    implements _$CurrenciesCopyWith<$Res> {
-  __$CurrenciesCopyWithImpl(
-      _Currencies _value, $Res Function(_Currencies) _then)
-      : super(_value, (v) => _then(v as _Currencies));
+class __$$_CurrenciesCopyWithImpl<$Res>
+    extends _$CurrenciesCopyWithImpl<$Res, _$_Currencies>
+    implements _$$_CurrenciesCopyWith<$Res> {
+  __$$_CurrenciesCopyWithImpl(
+      _$_Currencies _value, $Res Function(_$_Currencies) _then)
+      : super(_value, _then);
 
-  @override
-  _Currencies get _value => super._value as _Currencies;
-
+  @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? id = freezed,
-    Object? logo_url = freezed,
-    Object? name = freezed,
-    Object? price = freezed,
+    Object? id = null,
+    Object? logo_url = null,
+    Object? name = null,
+    Object? price = null,
     Object? marketCap = freezed,
-    Object? rank = freezed,
+    Object? rank = null,
     Object? rankDelta = freezed,
   }) {
-    return _then(_Currencies(
-      id: id == freezed
+    return _then(_$_Currencies(
+      id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
-      logo_url: logo_url == freezed
+      logo_url: null == logo_url
           ? _value.logo_url
           : logo_url // ignore: cast_nullable_to_non_nullable
               as String,
-      name: name == freezed
+      name: null == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      price: price == freezed
+      price: null == price
           ? _value.price
           : price // ignore: cast_nullable_to_non_nullable
               as String,
-      marketCap: marketCap == freezed
+      marketCap: freezed == marketCap
           ? _value.marketCap
           : marketCap // ignore: cast_nullable_to_non_nullable
               as double?,
-      rank: rank == freezed
+      rank: null == rank
           ? _value.rank
           : rank // ignore: cast_nullable_to_non_nullable
               as String,
-      rankDelta: rankDelta == freezed
+      rankDelta: freezed == rankDelta
           ? _value.rankDelta
           : rankDelta // ignore: cast_nullable_to_non_nullable
               as String?,
@@ -208,36 +213,35 @@ class _$_Currencies implements _Currencies {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _Currencies &&
-            const DeepCollectionEquality().equals(other.id, id) &&
-            const DeepCollectionEquality().equals(other.logo_url, logo_url) &&
-            const DeepCollectionEquality().equals(other.name, name) &&
-            const DeepCollectionEquality().equals(other.price, price) &&
-            const DeepCollectionEquality().equals(other.marketCap, marketCap) &&
-            const DeepCollectionEquality().equals(other.rank, rank) &&
-            const DeepCollectionEquality().equals(other.rankDelta, rankDelta));
+            other is _$_Currencies &&
+            (identical(other.id, id) || other.id == id) &&
+            (identical(other.logo_url, logo_url) ||
+                other.logo_url == logo_url) &&
+            (identical(other.name, name) || other.name == name) &&
+            (identical(other.price, price) || other.price == price) &&
+            (identical(other.marketCap, marketCap) ||
+                other.marketCap == marketCap) &&
+            (identical(other.rank, rank) || other.rank == rank) &&
+            (identical(other.rankDelta, rankDelta) ||
+                other.rankDelta == rankDelta));
   }
 
   @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(id),
-      const DeepCollectionEquality().hash(logo_url),
-      const DeepCollectionEquality().hash(name),
-      const DeepCollectionEquality().hash(price),
-      const DeepCollectionEquality().hash(marketCap),
-      const DeepCollectionEquality().hash(rank),
-      const DeepCollectionEquality().hash(rankDelta));
+      runtimeType, id, logo_url, name, price, marketCap, rank, rankDelta);
 
   @JsonKey(ignore: true)
   @override
-  _$CurrenciesCopyWith<_Currencies> get copyWith =>
-      __$CurrenciesCopyWithImpl<_Currencies>(this, _$identity);
+  @pragma('vm:prefer-inline')
+  _$$_CurrenciesCopyWith<_$_Currencies> get copyWith =>
+      __$$_CurrenciesCopyWithImpl<_$_Currencies>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_CurrenciesToJson(this);
+    return _$$_CurrenciesToJson(
+      this,
+    );
   }
 }
 
@@ -255,21 +259,21 @@ abstract class _Currencies implements Currencies {
       _$_Currencies.fromJson;
 
   @override
-  String get id => throw _privateConstructorUsedError;
+  String get id;
   @override
-  String get logo_url => throw _privateConstructorUsedError;
+  String get logo_url;
   @override
-  String get name => throw _privateConstructorUsedError;
+  String get name;
   @override
-  String get price => throw _privateConstructorUsedError;
+  String get price;
   @override
-  double? get marketCap => throw _privateConstructorUsedError;
+  double? get marketCap;
   @override
-  String get rank => throw _privateConstructorUsedError;
+  String get rank;
   @override
-  String? get rankDelta => throw _privateConstructorUsedError;
+  String? get rankDelta;
   @override
   @JsonKey(ignore: true)
-  _$CurrenciesCopyWith<_Currencies> get copyWith =>
+  _$$_CurrenciesCopyWith<_$_Currencies> get copyWith =>
       throw _privateConstructorUsedError;
 }

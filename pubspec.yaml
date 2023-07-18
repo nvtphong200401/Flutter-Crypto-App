@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: '>=3.0.3 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -35,11 +35,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   slide_to_act: ^2.0.1
+  riverpod: ^2.3.6
   flutter_riverpod: ^2.3.6
+  riverpod_annotation: ^2.1.1
   dio: ^5.2.0+1
   freezed_annotation: ^2.2.0
   iconly: ^1.0.1
-  fl_chart: ^0.62.0
+  fl_chart: ^0.63.0
   intl: ^0.18.1
   animate_do: ^3.0.2
   auto_animated: ^3.1.0
@@ -53,10 +55,14 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating spssecific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.1
-  build_runner: ^2.1.10
-  freezed: ^2.0.2
+  flutter_lints: ^2.0.0
+  auto_route_generator: ^7.1.1
+  build_runner: ^2.4.5
+  freezed: ^2.3.5
   json_serializable: ^6.7.0
+  custom_lint: ^0.4.0
+  riverpod_lint: ^1.3.2
+  riverpod_generator: ^2.2.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
