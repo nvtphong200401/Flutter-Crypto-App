@@ -61,10 +61,10 @@ packages:
     dependency: transitive
     description:
       name: auto_route
-      sha256: "1d53010ec30ad3b91e6d4701b18fc503e3d1bbf570f4c3277b74b6359263ab16"
+      sha256: "46037eb6acfefcb3627f1baeef1ea0ce4eed2d01dba26e060d4a231dc4f3c29c"
       url: "https://pub.dev"
     source: hosted
-    version: "7.7.0"
+    version: "7.7.1"
   auto_route_generator:
     dependency: "direct dev"
     description:
@@ -608,14 +608,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  slide_to_act:
+  slide_to_act_reborn:
     dependency: "direct main"
     description:
-      name: slide_to_act
-      sha256: e3ed8b7fdb3f4bff43ac3370c9dd27b4e48fb2518007f6d28745109f7aea275d
+      name: slide_to_act_reborn
+      sha256: d345593d171d109d4dace919812c5b2c7c1b7e5258451e6cfc8866cb0086cd9d
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.1"
+    version: "3.0.0"
   source_gen:
     dependency: transitive
     description:

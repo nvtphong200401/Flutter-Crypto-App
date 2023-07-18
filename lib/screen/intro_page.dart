@@ -2,7 +2,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:crypto_wallet_app/screen/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
-import 'package:slide_to_act/slide_to_act.dart';
+import 'package:slide_to_act_reborn/slide_to_act_reborn.dart';
 
 ////////////////////////////////////////
 ///   @faiz.rhm on Instagram
@@ -41,7 +41,10 @@ class IntroPage extends StatelessWidget {
                   child: Text(
                 'Create Your Cryptocurrency Wallet App',
                 style: TextStyle(
-                    color: Colors.yellowAccent[700], fontSize: 42, fontWeight: FontWeight.bold, fontFamily: ''),
+                    color: Colors.yellowAccent[700],
+                    fontSize: 42,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: ''),
               )),
               const SizedBox(
                 height: 20,
@@ -77,7 +80,8 @@ class IntroPage extends StatelessWidget {
                         () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => const HomePage()),
+                            MaterialPageRoute(
+                                builder: (context) => const HomePage()),
                           );
                         },
                       );
